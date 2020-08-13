@@ -1,0 +1,12 @@
+#pragma once
+#include "Product.h"
+class Laptop : public Product
+{
+private:
+	std::string GPU;
+public:
+	Laptop();
+	Laptop(const std::string& _product_name,const std::string& _product_serial_number, const std::string& _GPU , const std::string& _CPU, size_t _RAM);
+	void print();
+};
+
