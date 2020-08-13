@@ -152,6 +152,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Firm_Project_IN.cpp" />
+    <ClCompile Include="Laptop.cpp" />
+    <ClCompile Include="Phone.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="ProductFactory.cpp" />
+    <ClCompile Include="Tablet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Laptop.h" />
+    <ClInclude Include="Phone.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="ProductFactory.h" />
+    <ClInclude Include="Tablet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
