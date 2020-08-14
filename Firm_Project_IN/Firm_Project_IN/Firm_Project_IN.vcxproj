@@ -153,25 +153,35 @@
   <ItemGroup>
     <ClCompile Include="Accountable.cpp" />
     <ClCompile Include="Accountant.cpp" />
+    <ClCompile Include="AccountantDepartment.cpp" />
+    <ClCompile Include="Department.cpp" />
     <ClCompile Include="Firm_Project_IN.cpp" />
     <ClCompile Include="Laptop.cpp" />
     <ClCompile Include="Phone.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="ProductFactory.cpp" />
     <ClCompile Include="Programer.cpp" />
+    <ClCompile Include="ProgrammingDepartment.cpp" />
     <ClCompile Include="Seller.cpp" />
+    <ClCompile Include="SellingDepartment.cpp" />
+    <ClCompile Include="Shop.cpp" />
     <ClCompile Include="Tablet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Accountable.h" />
     <ClInclude Include="Accountant.h" />
+    <ClInclude Include="AccountantDepartment.h" />
+    <ClInclude Include="Department.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Laptop.h" />
     <ClInclude Include="Phone.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="ProductFactory.h" />
     <ClInclude Include="Programer.h" />
+    <ClInclude Include="ProgrammingDepartment.h" />
     <ClInclude Include="Seller.h" />
+    <ClInclude Include="SellingDepartment.h" />
+    <ClInclude Include="Shop.h" />
     <ClInclude Include="Tablet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
