@@ -13,93 +13,105 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\products">
+      <UniqueIdentifier>{57f7e2b8-03eb-412e-9ae5-8a6364648fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\departments">
+      <UniqueIdentifier>{f78c1d31-dd26-4783-8521-4b4921b76cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\employees">
+      <UniqueIdentifier>{a75c089e-54cd-485e-a7a0-65e69f049a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\departments">
+      <UniqueIdentifier>{8f734951-9be2-440f-97d6-5cc307eee0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\products">
+      <UniqueIdentifier>{b8414559-0347-4327-9958-77f5bad74ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\employees">
+      <UniqueIdentifier>{b87e4013-24c1-4f37-8728-ee0e2ff42170}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Firm_Project_IN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Laptop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Phone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Product.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ProductFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Tablet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Accountant.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Programer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Seller.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Shop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Department.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Products\Tablet.cpp">
+      <Filter>Source Files\products</Filter>
     </ClCompile>
-    <ClCompile Include="ProgrammingDepartment.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Products\Product.cpp">
+      <Filter>Source Files\products</Filter>
     </ClCompile>
-    <ClCompile Include="SellingDepartment.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Products\ProductFactory.cpp">
+      <Filter>Source Files\products</Filter>
     </ClCompile>
-    <ClCompile Include="AccountantDepartment.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Products\Laptop.cpp">
+      <Filter>Source Files\products</Filter>
+    </ClCompile>
+    <ClCompile Include="Products\Phone.cpp">
+      <Filter>Source Files\products</Filter>
+    </ClCompile>
+    <ClCompile Include="Employees\Seller.cpp">
+      <Filter>Source Files\employees</Filter>
+    </ClCompile>
+    <ClCompile Include="Employees\Programer.cpp">
+      <Filter>Source Files\employees</Filter>
+    </ClCompile>
+    <ClCompile Include="Employees\Accountant.cpp">
+      <Filter>Source Files\employees</Filter>
+    </ClCompile>
+    <ClCompile Include="Departments\AccountantDepartment.cpp">
+      <Filter>Source Files\departments</Filter>
+    </ClCompile>
+    <ClCompile Include="Departments\ProgrammingDepartment.cpp">
+      <Filter>Source Files\departments</Filter>
+    </ClCompile>
+    <ClCompile Include="Departments\SellingDepartment.cpp">
+      <Filter>Source Files\departments</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Laptop.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Phone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Product.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ProductFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Tablet.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Accountant.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Employee.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Programer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Seller.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Shop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Department.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Products\Tablet.h">
+      <Filter>Header Files\products</Filter>
     </ClInclude>
-    <ClInclude Include="ProgrammingDepartment.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Products\Product.h">
+      <Filter>Header Files\products</Filter>
     </ClInclude>
-    <ClInclude Include="SellingDepartment.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Products\ProductFactory.h">
+      <Filter>Header Files\products</Filter>
     </ClInclude>
-    <ClInclude Include="AccountantDepartment.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Products\Laptop.h">
+      <Filter>Header Files\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Products\Phone.h">
+      <Filter>Header Files\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Employees\Seller.h">
+      <Filter>Header Files\employees</Filter>
+    </ClInclude>
+    <ClInclude Include="Employees\Programer.h">
+      <Filter>Header Files\employees</Filter>
+    </ClInclude>
+    <ClInclude Include="Employees\Employee.h">
+      <Filter>Header Files\employees</Filter>
+    </ClInclude>
+    <ClInclude Include="Employees\Accountant.h">
+      <Filter>Header Files\employees</Filter>
+    </ClInclude>
+    <ClInclude Include="Departments\AccountantDepartment.h">
+      <Filter>Header Files\departments</Filter>
+    </ClInclude>
+    <ClInclude Include="Departments\ProgrammingDepartment.h">
+      <Filter>Header Files\departments</Filter>
+    </ClInclude>
+    <ClInclude Include="Departments\SellingDepartment.h">
+      <Filter>Header Files\departments</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

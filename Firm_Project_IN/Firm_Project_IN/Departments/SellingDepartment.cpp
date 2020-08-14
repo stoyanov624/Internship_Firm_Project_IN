@@ -1,6 +1,6 @@
 #include "SellingDepartment.h"
 
-SellingDepartment::SellingDepartment(const std::vector<Seller> sellers) {
+SellingDepartment::SellingDepartment(const std::vector<Seller>& sellers) {
 	this->sellers = sellers;
 }
 
@@ -14,8 +14,11 @@ void SellingDepartment::giveTask() {
 
 void SellingDepartment::giveTask(Product* product) {
 	for (size_t i = 0; i < sellers.size(); i++) {
-		if (sellers[i].checkAvailability(product))
+		if (sellers[i].checkAvailability(product)) {
+			std::cout << this->sellers[i].getName() << " started selling his products..." << std::endl;
+			this->sellers[i].print();
 			sellers[i].sellProduct(product);
+		}
 	}
 }
 

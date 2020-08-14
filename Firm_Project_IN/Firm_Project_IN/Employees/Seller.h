@@ -1,6 +1,6 @@
 #pragma once
 #include "Employee.h"
-#include "Product.h"
+#include "../Products/Product.h"
 
 class Seller : public Employee {
 	size_t soldProducts;
