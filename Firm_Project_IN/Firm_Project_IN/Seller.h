@@ -1,17 +1,46 @@
 #pragma once
 #include "Employee.h"
+#include "Product.h"
 
 class Seller : public Employee {
 	size_t soldProducts;
+	std::vector<Product*> products;
 public:
 	Seller();
-	Seller(const std::string& name);
+	Seller(const std::string& name, const std::vector<Product*>& products);
 
 	void greet();
 	void calculateSalary();
 	void report();
-	void sellProduct();
+
+	void addProduct(Product* product);
+	void sellLastProduct();
+	void sellProduct(Product* product);
+	bool checkAvailability(Product* product);
+	const std::string& getName() const;
+
+	// helpers 
+	void pop_at(size_t pos);
+	void print() const;
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Observers for the store
 /* class SoldProductObserver {
