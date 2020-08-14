@@ -11,7 +11,7 @@ Tablet::Tablet(const std::string& _product_name, const std::string& _product_ser
 	this->back_camera_megapixels = _back_camera_megapixels;
 }
 
-void Tablet::print() {
+void Tablet::print() const noexcept {
 	std::cout << "Product name: " << product_name << std::endl;
 	std::cout << "Serial number: " << product_serial_number << std::endl;
 	std::cout << "CPU: " << CPU << std::endl;

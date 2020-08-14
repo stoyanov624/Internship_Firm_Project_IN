@@ -153,25 +153,49 @@
   <ItemGroup>
     <ClCompile Include="Accountable.cpp" />
     <ClCompile Include="Accountant.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="AccountantDepartment.cpp" />
+    <ClCompile Include="Department.cpp" />
+>>>>>>> 8804b00088ac813e029598c5de528ddaf422da7e
     <ClCompile Include="Firm_Project_IN.cpp" />
     <ClCompile Include="Laptop.cpp" />
     <ClCompile Include="Phone.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="ProductFactory.cpp" />
     <ClCompile Include="Programer.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="Seller.cpp" />
+=======
+    <ClCompile Include="ProgrammingDepartment.cpp" />
+    <ClCompile Include="Seller.cpp" />
+    <ClCompile Include="SellingDepartment.cpp" />
+    <ClCompile Include="Shop.cpp" />
+>>>>>>> 8804b00088ac813e029598c5de528ddaf422da7e
     <ClCompile Include="Tablet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Accountable.h" />
     <ClInclude Include="Accountant.h" />
+<<<<<<< HEAD
+=======
+    <ClInclude Include="AccountantDepartment.h" />
+    <ClInclude Include="Department.h" />
+>>>>>>> 8804b00088ac813e029598c5de528ddaf422da7e
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Laptop.h" />
     <ClInclude Include="Phone.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="ProductFactory.h" />
     <ClInclude Include="Programer.h" />
+<<<<<<< HEAD
     <ClInclude Include="Seller.h" />
+=======
+    <ClInclude Include="ProgrammingDepartment.h" />
+    <ClInclude Include="Seller.h" />
+    <ClInclude Include="SellingDepartment.h" />
+    <ClInclude Include="Shop.h" />
+>>>>>>> 8804b00088ac813e029598c5de528ddaf422da7e
     <ClInclude Include="Tablet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

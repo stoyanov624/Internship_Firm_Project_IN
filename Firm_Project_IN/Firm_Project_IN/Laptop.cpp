@@ -10,7 +10,7 @@ Laptop::Laptop(const std::string& _product_name, const std::string& _product_ser
 	this->GPU = _GPU;
 }
 
-void Laptop::print() {
+void Laptop::print() const noexcept {
 	std::cout << "Product name: " << product_name << std::endl;
 	std::cout << "Serial number: " << product_serial_number << std::endl;
 	std::cout << "CPU: " << CPU << std::endl;

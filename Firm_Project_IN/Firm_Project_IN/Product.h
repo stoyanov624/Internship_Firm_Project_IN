@@ -11,6 +11,6 @@ protected:
 	double product_price;
 	
 public:
-	virtual void print() = 0;
+	virtual void print() const = 0;
 };
 

@@ -45,6 +45,24 @@
     <ClCompile Include="Seller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="Shop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Department.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgrammingDepartment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SellingDepartment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountantDepartment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+>>>>>>> 8804b00088ac813e029598c5de528ddaf422da7e
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Laptop.h">
@@ -77,5 +95,23 @@
     <ClInclude Include="Seller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="Shop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Department.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgrammingDepartment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SellingDepartment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountantDepartment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+>>>>>>> 8804b00088ac813e029598c5de528ddaf422da7e
   </ItemGroup>
 </Project>
