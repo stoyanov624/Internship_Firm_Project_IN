@@ -3,7 +3,7 @@
 #include "Phone.h"
 #include "Tablet.h"
 Product* ProductFactory::createProduct(const std::string& product_type) {
-	Product* product = NULL;
+	Product* product = nullptr;
 
 	if (product_type == "laptop") {
 		product = new Laptop();

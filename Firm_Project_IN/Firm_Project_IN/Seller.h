@@ -1,8 +1,6 @@
 #pragma once
 #include "Employee.h"
 
-class Product {};
-
 class Seller : public Employee {
 	size_t soldProducts;
 public:

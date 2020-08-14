@@ -33,6 +33,18 @@
     <ClCompile Include="Tablet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Accountable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Accountant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Laptop.h">
@@ -48,6 +60,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Tablet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accountable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accountant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Programer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Seller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
