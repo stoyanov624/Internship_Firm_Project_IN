@@ -1,19 +1,19 @@
 #include <iostream>
-#include "AccountantDepartment.h"
-#include "Seller.h"
-#include "Accountant.h"
-#include "Programer.h"
-#include "Phone.h"
-#include "Laptop.h"
-#include "Tablet.h"
-#include "SellingDepartment.h"
-
+#include "Departments/AccountantDepartment.h"
+#include "Employees/Seller.h"
+#include "Employees/Accountant.h"
+#include "Employees/Programer.h"
+#include "Products/Phone.h"
+#include "Products/Laptop.h"
+#include "Products/Tablet.h"
+#include "Departments/SellingDepartment.h"
+#include "Shop.h"
 
 int main() {
 	std::vector<Product*> products;
-	Product* iphone = new Phone("Iphone XS 64gb", "A1250", 12, 12, "Intel Core I5-10054", 8);
-	Product* iphone2 = new Phone("Iphone XS MAX", "A1251", 12, 12, "Intel Core I5-10054", 8);
-	Product* iphone3 = new Phone("Iphone 11 Pro", "A1252", 12, 12, "Intel Core I5-9054", 12);
+	Product* iphone = new Phone("Iphone XS 64gb", "A1250",5 ,12, 12, "Intel Core I5-10054", 8);
+	Product* iphone2 = new Phone("Iphone XS MAX", "A1251",5 ,12, 12, "Intel Core I5-10054", 8);
+	Product* iphone3 = new Phone("Iphone 11 Pro", "A1252",5, 12, 12, "Intel Core I5-9054", 12);
 	products.push_back(iphone);
 	products.push_back(iphone2);
 	products.push_back(iphone3);
@@ -29,9 +29,6 @@ int main() {
 
 	SellingDepartment sell_dep(sellers);
 	sell_dep.giveTask();
-
-
-
 
 
 	/*std::vector<std::string> languages = { "C++", "JavaScript", "C#" };

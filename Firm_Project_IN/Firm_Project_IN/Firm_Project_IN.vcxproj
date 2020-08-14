@@ -91,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,36 +152,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AccountantDepartment.cpp" />
-    <ClCompile Include="Accountant.cpp" />
-    <ClCompile Include="Department.cpp" />
+    <ClCompile Include="Departments\AccountantDepartment.cpp" />
+    <ClCompile Include="Employees\Accountant.cpp" />
     <ClCompile Include="Firm_Project_IN.cpp" />
-    <ClCompile Include="Laptop.cpp" />
-    <ClCompile Include="Phone.cpp" />
-    <ClCompile Include="Product.cpp" />
-    <ClCompile Include="ProductFactory.cpp" />
-    <ClCompile Include="Programer.cpp" />
-    <ClCompile Include="ProgrammingDepartment.cpp" />
-    <ClCompile Include="Seller.cpp" />
-    <ClCompile Include="SellingDepartment.cpp" />
+    <ClCompile Include="Products\Laptop.cpp" />
+    <ClCompile Include="Products\Phone.cpp" />
+    <ClCompile Include="Products\Product.cpp" />
+    <ClCompile Include="Products\ProductFactory.cpp" />
+    <ClCompile Include="Employees\Programer.cpp" />
+    <ClCompile Include="Departments\ProgrammingDepartment.cpp" />
+    <ClCompile Include="Employees\Seller.cpp" />
+    <ClCompile Include="Departments\SellingDepartment.cpp" />
     <ClCompile Include="Shop.cpp" />
-    <ClCompile Include="Tablet.cpp" />
+    <ClCompile Include="Products\Tablet.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AccountantDepartment.h" />
-    <ClInclude Include="Accountant.h" />
-    <ClInclude Include="Department.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="Laptop.h" />
-    <ClInclude Include="Phone.h" />
-    <ClInclude Include="Product.h" />
-    <ClInclude Include="ProductFactory.h" />
-    <ClInclude Include="Programer.h" />
-    <ClInclude Include="ProgrammingDepartment.h" />
-    <ClInclude Include="Seller.h" />
-    <ClInclude Include="SellingDepartment.h" />
+    <ClInclude Include="Departments\AccountantDepartment.h" />
+    <ClInclude Include="Employees\Accountant.h" />
+    <ClInclude Include="Employees\Employee.h" />
+    <ClInclude Include="Products\Laptop.h" />
+    <ClInclude Include="Products\Phone.h" />
+    <ClInclude Include="Products\Product.h" />
+    <ClInclude Include="Products\ProductFactory.h" />
+    <ClInclude Include="Employees\Programer.h" />
+    <ClInclude Include="Departments\ProgrammingDepartment.h" />
+    <ClInclude Include="Employees\Seller.h" />
+    <ClInclude Include="Departments\SellingDepartment.h" />
     <ClInclude Include="Shop.h" />
-    <ClInclude Include="Tablet.h" />
+    <ClInclude Include="Products\Tablet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
