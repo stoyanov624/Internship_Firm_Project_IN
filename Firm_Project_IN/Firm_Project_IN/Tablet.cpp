@@ -1,12 +1,12 @@
 #include "Tablet.h"
 
-Tablet::Tablet() : front_camera_megapixels(), back_camera_megapixels() {}
+Tablet::Tablet() : front_camera_megapixels(0), back_camera_megapixels(0),CPU(),RAM(0) {}
 
 Tablet::Tablet(const std::string& _product_name, const std::string& _product_serial_number, double _front_camera_megapixels, double _back_camera_megapixels, const std::string& _CPU, size_t _RAM) {
 	product_name = _product_name;
 	product_serial_number = _product_serial_number;
-	CPU = _CPU;
-	RAM = _RAM;
+	this->CPU = _CPU;
+	this->RAM = _RAM;
 	this->front_camera_megapixels = _front_camera_megapixels;
 	this->back_camera_megapixels = _back_camera_megapixels;
 }

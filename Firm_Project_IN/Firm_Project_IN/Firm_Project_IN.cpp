@@ -1,8 +1,11 @@
 
-
 #include <iostream>
-
+#include "Phone.h"
+#include "Laptop.h"
+#include "Tablet.h"
+#include "ProductFactory.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	Product* p1 = ProductFactory::createProduct("laptop");
+	p1->print();
 }
