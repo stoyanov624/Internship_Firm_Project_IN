@@ -30,9 +30,6 @@ int main() {
 	sell_dep.giveTask();
 
 
-
-
-
 	/*std::vector<std::string> languages = { "C++", "JavaScript", "C#" };
 	Employee* nasko = new Programmer("NASKO", languages, 16);
 	Employee* mladen = new Seller("MLADEN", products);
