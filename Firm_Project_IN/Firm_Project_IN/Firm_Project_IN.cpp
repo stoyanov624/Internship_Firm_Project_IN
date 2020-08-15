@@ -8,6 +8,7 @@
 #include "Tablet.h"
 #include "SellingDepartment.h"
 
+
 int main() {
 	std::vector<Product*> products;
 	Product* iphone = new Phone("Iphone XS 64gb", "A1250", 12, 12, "Intel Core I5-10054", 8);
@@ -41,4 +42,5 @@ int main() {
 	employees.push_back(traicho);
 
 	Accountable::getInstance(employees)->report();*/
+
 }

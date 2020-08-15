@@ -1,12 +1,12 @@
 #include "Phone.h"
 
-Phone::Phone() : front_camera_megapixels(), back_camera_megapixels() {}
+Phone::Phone() : front_camera_megapixels(), back_camera_megapixels(),CPU(),RAM(0) {}
 
 Phone::Phone(const std::string& _product_name, const std::string& _product_serial_number, double _front_camera_megapixels, double _back_camera_megapixels, const std::string& _CPU, size_t _RAM) { 
 	product_name = _product_name;
 	product_serial_number = _product_serial_number;
-	CPU = _CPU;
-	RAM = _RAM;
+	this->CPU = _CPU;
+	this->RAM = _RAM;
 	this->front_camera_megapixels = _front_camera_megapixels;
 	this->back_camera_megapixels = _back_camera_megapixels;
 }
